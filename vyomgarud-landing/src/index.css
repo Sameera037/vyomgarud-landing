@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom */
+html,body,#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-vyomMuted text-white font-body;
+}
+
+/* subtle focus styles */
+:focus {
+  outline: 3px solid rgba(255,123,0,0.12);
+  outline-offset: 2px;
+}
